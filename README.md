@@ -17,12 +17,17 @@ PROJECT STRUCTURE :
 
 ├── Controller
 │   └── postController.java       # Main REST controller with job listing endpoints.
+
 ├── Model
 │   └── JobPost.java              # Data model representing job posts.
+
 ├── Repository
 │   ├── PostRepository.java       # MongoDB repository for CRUD operations.
+
 │   ├── SearchImplementation.java # Custom implementation for text-based search.
+
 │   └── SearchRepository.java     # Interface for custom search operations.
+
 └── JobListingApplication.java    # Main Spring Boot application file.
 
 Endpoints
